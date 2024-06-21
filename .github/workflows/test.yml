@@ -25,5 +25,5 @@ jobs:
       - name: Run a one-line script
         run: |
           echo "hello world" 
-          echo "Secret 2: " ${{ secrets.Secret2 }}
+          echo "Secret a 2: " ${{ secrets.Secret2 }}
 
